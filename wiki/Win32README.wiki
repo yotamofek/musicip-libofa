@@ -35,6 +35,7 @@ To generate the import library needed by MSVC++. Make sure that the "lib.exe" to
 
 In order to get the project to compile from the Visual Studio .NET solution, you will need to set up a directory structure that looks like this:
 
+{{{
 C:\whatever
    libofa
       |---lib
@@ -59,7 +60,7 @@ C:\whatever
       |---include      
       |     |---curl   ; contains curl.h
       |---lib          ; contains libcurl-3.def, libcurl-3.dll
-            
+}}}     
       
 =Building LibOFA=
 
